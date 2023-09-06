@@ -1,11 +1,11 @@
 import React from "react";
-
-export const Course = () => {
+function Course ({title, description}){
     return(
-        <div>
-            Berke
+        <div>  
+            <div>{title}</div> 
+            <div>{description}</div>
         </div>
-    )
-};
+    );
+}
 
 export default Course;
