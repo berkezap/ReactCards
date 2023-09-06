@@ -1,11 +1,11 @@
 import React from "react";
-function Course ({title, description}){
+function Course({image, title, description}){
     return(
-        <div>  
-            <div>{title}</div> 
+        <div>
+            <img src={image} alt="" />
+            <div>{title}</div>
             <div>{description}</div>
         </div>
     );
 }
-
-export default Course;
+export default Course
